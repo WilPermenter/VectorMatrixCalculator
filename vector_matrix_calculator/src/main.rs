@@ -40,6 +40,7 @@ fn build_array(user_input: &str) -> Array{
         data.push_str(",");
     }
 
+    //Yes I know I did this entire thing with x / y backwards but Im to lazy to fix it so yea... It gets fliped here
     let arr = Array {x : temp_vec[1].parse().unwrap(), y : temp_vec[0].parse().unwrap() , data : data };
 
     arr 
