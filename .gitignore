@@ -1,0 +1,9 @@
+
+*.pdb
+*.exe
+*.d
+*.json
+*.rmeta
+*.timestamp
+*.TAG
+vector_matrix_calculator/target/
